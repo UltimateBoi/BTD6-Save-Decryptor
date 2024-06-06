@@ -1,0 +1,13 @@
+﻿<Window x:Name="BTD_Profile_Save" x:Class="BTD6_Profile.Save_Decryptor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BTD6_Profile.Save_Decryptor"
+        mc:Ignorable="d"
+        Title="BTD Profile.Save" Height="140" Width="320" Background="Black">
+    <Grid>
+        <Button Content="Decrypt Profile.Save" HorizontalAlignment="Left" Margin="20,24,0,0" VerticalAlignment="Top" Height="56" Width="120" Click="Decrypt_Click"/>
+        <Button Content="Encrypt Profile.Save" HorizontalAlignment="Left" Margin="160,24,0,0" VerticalAlignment="Top" Height="56" Width="120" Click="Encrypt_Click"/>
+    </Grid>
+</Window>
